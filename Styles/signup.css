@@ -1,41 +1,131 @@
-@import url('https://fonts.cdnfonts.com/css/spline-sans-mono');
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&family=Raleway:wght@400;500;600;700;800;900&family=Tenor+Sans&display=swap');
 
-
-body {
-     font-family: 'Spline Sans Mono', sans-serif;
+/* Reset and global styles */
+body,
+input {
      margin: 0;
      box-sizing: border-box;
      overflow-x: hidden;
+     color: white;
+          font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+     font-size: 30px;
+}
+
+/* Background styles */
 .background_img {
-     background-size: cover;
      width: 100%;
      position: relative;
      top: 0;
      left: 0;
      opacity: 1;
-     filter: brightness(0.45)
+     filter: brightness(0.35);
+          background-size: cover;
 }
 
+/* Logo styles */
 .logo_img {
      width: 160px;
-          height: 50px;
+     height: 50px;
      position: absolute;
      top: 15px;
-          left: 50px;
+     left: 50px;
 }
 
+/* Form container styles */
 .form-container {
-     width: 350px;
-          height: 380px;
-     background-color: rgb(151, 151, 151);
+     width: 300px;
+          height: 530px;
+          background-color: rgb(0, 0, 0);
      margin: 0 auto;
-          align-items: center;
+     align-items: center;
           text-align: center;
-          padding: 30px 50px;
+     padding: 40px 60px;
           position: absolute;
-          top: 100px;
-          left: 610px;
-          border-radius: 3px;
+     top: 90px;
+          left: 680px;
+          border-radius: 1px;
+     }
+     
+     /* Input styles */
+     .input-placeholder>input {
+          padding: 14px 100px 15px 35px;
+          margin: 8px 0;
+          border: none;
+          background-color: #303030;
+          border-radius: 5px;
+          outline: none;
+          font-size: 15px;
+          color: white;
+     }
+     
+     /* Button styles */
+     button {
+          margin: 35px 0 6px 0;
+          padding: 1px 125px;
+          background-color: red;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          font-weight: 700 !important;
+          cursor: pointer;
+     }
+     
+     /* Checkbox styles */
+     .remember-checkbok {
+          margin-top: 5px;
+          margin-left: -1px;
+     }
+     
+     /* Text styles */
+     .form-container {
+          text-align: start;
+     }
+     
+     .remember-text {
+          font-size: 13px;
+          margin: 0;
+          margin-top: -30px !important;
+          color: rgb(153, 153, 153);
+     }
+     
+     a {
+          text-decoration: none;
+          color: rgb(153, 153, 153);
+     }
+     
+     /* Help text styles */
+     .need-helptext {
+          margin-left: 222px;
+          font-size: 12px;
+          text-decoration: none;
+          margin-top: -17px;
+     }
+     
+     /* Hover styles */
+     a:hover {
+          border-bottom: .5px solid rgb(153, 153, 153);
+     }
+     
+     /* Container text styles */
+     .container-text {
+          margin-top: 85px;
+     }
+     
+     /* Other text styles */
+     .new-netflix,
+     .sign-now-text,
+     .reCAPTCHA-text {
+          font-size: 14px;
+          color: rgb(153, 153, 153);
+}
+
+/* ReCAPTCHA text styles */
+.reCAPTCHA-text {
+     font-size: 12px;
+     width: 290px;
+     color: rgb(153, 153, 153);
 }
