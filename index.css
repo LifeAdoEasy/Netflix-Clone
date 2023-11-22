@@ -1,0 +1,147 @@
+body{
+    background-color: grey;
+    /* font-family:'Netflix Font', sans-serif; */
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 24px;
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    /* text-align: center; */
+    margin-left: 100px;
+    margin-right: 150px;
+    list-style-type: none;
+}
+nav{
+    margin-bottom: 150px;
+}
+button{
+    font-size: 16px;
+    padding: 5px;
+    width: 70px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+input{
+    margin-bottom: 120px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    /* outline: none; */
+    font-weight: 600;
+    /* border: none; */
+    font-size: 15px;
+    color: white;
+}
+.input-box{
+    position: relative;
+}
+label{
+    position: absolute;
+    left: 370px;
+    top: 17px;
+    pointer-events: none;
+}
+input:focus~label
+input:valid~label{
+    top: -10px;
+    font-size: 15px;
+}
+.btn-input{
+    width: 200px;
+    height: 56px;
+    line-height: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px;
+    border: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+}
+.section-A{
+    background-image: url(/images/background.jpg);
+    /* backdrop-filter: blur(10px); */
+    opacity: 0.1;
+    background-color: black;
+    filter: brightness(0.35);
+    
+}
+.page-A{
+    text-align: center;
+}
+
+.page-B{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.text-left-B{
+    width: 25%;
+}
+/* .img-left-B{
+    text-align: center;
+
+} */
+.page-C{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.text-right-C{
+    width: 25%;
+}
+.page-D{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.text-left-D{
+    width: 25%;
+}
+.page-E{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.text-left-E{
+    width: 25%;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.table-accordion{
+    display: flex;
+    justify-content: center;
+}
+.content-below-accordion{
+    display: flex;
+    justify-content: center;
+}
+.email-below{
+    display: flex;
+    justify-content: center;
+}
