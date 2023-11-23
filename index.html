@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/index.css" />
-    <!-- <link href="https://fonts.cdnfonts.com/css/netflix-font" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -25,7 +30,7 @@
       <div class="page-A">
         <h1>Unlimited movies, TV shows, and more</h1>
         <p>Watch anywhere. Cancel anytime.</p>
-        <p>
+        <p class="paragraph-a">
           Ready to watch? Enter your email to create or restart your membership.
         </p>
         <div class="input-box">
@@ -40,13 +45,18 @@
       <div class="page-B">
         <div class="text-left-B">
           <h1>Enjoy on your TV</h1>
-          <p>
+          <p class="paragraph-b">
             Watch on smart TVs,Playstation, Xbox, Chromecast, Apple TV, Blu-ray
             players, and more.
           </p>
         </div>
         <div class="img-left-A">
-          <img src="/images/fav.png" alt="" width="200px" />
+          <img
+            src="/images/netflix-tv.png"
+            alt=""
+            width="400px"
+            class="img-b"
+          />
         </div>
       </div>
     </section>
@@ -54,11 +64,13 @@
     <section class="section-C">
       <div class="page-C">
         <div class="img-left-C">
-          <img src="/images/fav.png" alt="" width="200px" />
+          <img src="/images/phone-net.jpg" alt="" width="200px" class="img-c" />
         </div>
         <div class="text-right-C">
           <h1>Download your shows to watch offline</h1>
-          <p>Save your favourites easily and always have something to watch.</p>
+          <p class="paragraph-c">
+            Save your favourites easily and always have something to watch.
+          </p>
         </div>
       </div>
     </section>
@@ -67,7 +79,7 @@
       <div class="page-D">
         <div class="text-left-D">
           <h1>Watch everywhere</h1>
-          <p>
+          <p class="paragraph-d">
             Stream unlimited movies and TV shows on your phone, tablet, laptop,
             and TV.
           </p>
@@ -78,11 +90,11 @@
     <section class="section-E">
       <div class="page-E">
         <div class="img-left-E">
-          <img src="/images/fav.png" alt="" width="200px" />
+          <img src="/images/net-kids.png" alt="" width="200px" class="img-e" />
         </div>
         <div class="text-left-E">
           <h1>Create profiles for kids</h1>
-          <p>
+          <p class="paragraph-e">
             Send kids on adventures with their favorite characters in a space
             made just for them-free with your membership.
           </p>
@@ -91,20 +103,93 @@
     </section>
     <!-- ********SECTION F******* -->
     <section class="section-F">
-      <div class="accordion">
+      <div class="section-F">
         <div class="table-accordion">
           <h1>Frequently Asked Questions</h1>
-          <!-- ********ACCORDION******** -->
+          <!-- ********ACCORDION 1******** -->
+          <button class="accordion-btn">What is Netflix?</button>
+          <div class="panel">
+            <p>
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries, and more on
+              thousands of internet-connected devices.
+            </p>
+            <p>
+              You can watch as much as you want, whenever you want without a
+              single commercial-all for one low monthly price. There's always
+              something new to discover and new TV shows and movies are added
+              every week!
+            </p>
+          </div>
+          <!-- *********ACCORDION 2********** -->
+          <button class="accordion-btn">How much does Netflix cost?</button>
+          <div class="panel">
+            <p>
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from
+              N1,200 to N4,400 a month. No extracosts, no contracts.
+            </p>
+          </div>
+          <!-- *********ACCORDION 3********** -->
+          <button class="accordion-btn">Where can I watch?</button>
+          <div class="panel">
+            <p>
+              Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal
+              computer or on any internet-connected device that offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming
+              media players and game consoles.
+            </p>
+            <p>
+              You can also download your favorite shows with the iOS, Android,
+              or Windows 10 app. Use downloads to watch while you're on the go
+              and without an internet connection. Take Netflix with you
+              anywhere.
+            </p>
+          </div>
+          <!-- *********ACCORDION 4********** -->
+          <button class="accordion-btn">How do I cancel?</button>
+          <div class="panel">
+            <p>
+              Netflix is flexible. There are no pesky contracts and no
+              commitments. You can easily cancel your account online in two
+              clicks. There are no cancellation fees – start or stop your
+              account anytime.
+            </p>
+          </div>
+          <!-- *********ACCORDION 5********** -->
+          <button class="accordion-btn">What can I watch on Netflix?</button>
+          <div class="panel">
+            <p>
+              Netflix has an extensive library of feature films, documentaries,
+              TV shows, anime, award-winning Netflix originals, and more. Watch
+              as much as you want, anytime you want.
+            </p>
+          </div>
+          <!-- *********ACCORDION 5********** -->
+          <button class="accordion-btn">Is netflix for kids?</button>
+          <div class="panel">
+            <p>
+              The Netflix Kids experience is included in your membership to give
+              parents control while kids enjoy family-friendly TV shows and
+              movies in their own space.
+            </p>
+            <p>
+              Kids profiles come with PIN-protected parental controls that let
+              you restrict the maturity rating of content kids can watch and
+              block specific titles you don’t want kids to see.
+            </p>
+          </div>
         </div>
         <div class="content-below-accordion">
-          <p>
+          <p class="paragraph-f">
             Ready to watch? Enter your email to create or restart your
             membership
           </p>
         </div>
         <div class="email-below">
           <input type="email" required autofocus />
-          <button>Get Started ></button>
+          <button class="btn-input">Get Started ></button>
         </div>
       </div>
     </section>

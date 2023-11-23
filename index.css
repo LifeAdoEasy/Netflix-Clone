@@ -1,6 +1,9 @@
 body{
     background-color: grey;
-    /* font-family:'Netflix Font', sans-serif; */
+   /* font-family: 'Fira Sans', sans-serif; */
+   /* font-family: 'Noto Sans Tai Viet', sans-serif; */
+   /* font-family: 'Nunito', sans-serif; */
+   font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 48px;
@@ -27,6 +30,7 @@ button{
     background-color: red;
     border-radius: 5px;
     border: none;
+    margin-left: 3px;
 }
 input{
     margin-bottom: 120px;
@@ -37,7 +41,7 @@ input{
     /* outline: none; */
     font-weight: 600;
     /* border: none; */
-    font-size: 15px;
+    font-size: 1cqi;
     color: white;
 }
 .input-box{
@@ -46,8 +50,9 @@ input{
 label{
     position: absolute;
     left: 370px;
-    top: 17px;
+    top: 19px;
     pointer-events: none;
+    font-size: 20px;
 }
 input:focus~label
 input:valid~label{
@@ -73,18 +78,22 @@ section{
     background-color: black;
     color: white;
 }
+/* ********SECTION A ********/
 .section-A{
     background-image: url(/images/background.jpg);
     /* backdrop-filter: blur(10px); */
-    opacity: 0.1;
+    /* opacity: 0.1;
     background-color: black;
-    filter: brightness(0.35);
+    filter: brightness(0.35); */
     
 }
 .page-A{
     text-align: center;
 }
+.paragraph-a{
 
+}
+/* ********SECTION B ********/
 .page-B{
     display: flex;
     justify-content: space-between ;
@@ -92,12 +101,18 @@ section{
     margin-right: 150px;
 }
 .text-left-B{
-    width: 25%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 45%;
 }
-/* .img-left-B{
-    text-align: center;
-
-} */
+.paragraph-b{
+    
+}
+.img-b{
+    margin-top: 70px;
+    width: 500px;
+}
+/* ********SECTION C ********/
 .page-C{
     display: flex;
     justify-content: space-between ;
@@ -105,8 +120,18 @@ section{
     margin-right: 150px;
 }
 .text-right-C{
-    width: 25%;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    width: 51%;
 }
+.paragraph-c{
+    
+}
+.img-c{
+    margin-top: 30px;
+    width: 500px;
+}
+/* ********SECTION D ********/
 .page-D{
     display: flex;
     justify-content: space-between ;
@@ -114,8 +139,14 @@ section{
     margin-right: 150px;
 }
 .text-left-D{
-    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 35%;
 }
+.paragraph-d{
+
+}
+/* ********SECTION E ********/
 .page-E{
     display: flex;
     justify-content: space-between ;
@@ -123,7 +154,16 @@ section{
     margin-right: 150px;
 }
 .text-left-E{
-    width: 25%;
+    margin-top: 110px;
+    margin-bottom: 130px;
+    width: 59%;
+}
+.paragraph-e{
+
+}
+.img-e{
+    margin-top: 90px;
+    width: 600px;
 }
 .accordion{
     display: flex;
@@ -137,6 +177,27 @@ section{
     display: flex;
     justify-content: center;
 }
+/* ACCORDION */
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion-btn{
+    background-color: #ccc;
+}
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
 .content-below-accordion{
     display: flex;
     justify-content: center;
@@ -145,3 +206,5 @@ section{
     display: flex;
     justify-content: center;
 }
+
+
